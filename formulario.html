@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario.css" >
+    <title>Document</title>
+</head>
+<body>
+        <div class = "DataInput">
+            <label>Insira seu nome e sobrenome:</label>
+            <input id="nome"><br>
+            <label>Insira o numero do seu cartão:</label>
+            <input id="NumeroDoCartao"><br>
+            <label>Qual é a bandeira do seu cartão?</label>
+            <select>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+            </select><br>
+            <label>Data de vencimento</label>
+            <input id="Mes">/<input id="Ano"><br>
+            <label>CVV</label>
+            <input id="CVV"><br>
+            <label>Endereço de cobrança</label>
+            <input class="EnderecoDeCobranca"><br>
+
+            <button onclick="CapturarValor()">Click here!</button>
+        </div>
+
+        <div class = "SavedData">
+            <label>Saved data</label>
+            <input id="NomeColocarValor" >    
+        </div>
+
+</body>
+<script src="formulario.js"></script>
+</html>
